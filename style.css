@@ -214,11 +214,25 @@ label {
 #gold {
   display: flex;
   justify-content: center;
-  
+
 }
 
 .star {
   width: 200px;
   height: 220px;
-  margin-top: 150px;
+  margin-top: 130px;
+  margin-left: 550px;
+}
+
+
+
+.tbox1 {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 70%;
+  margin-top: 500px;
+  margin-right: 200px;
+ 
+  background-color: #ffffff;
 }
