@@ -197,3 +197,14 @@ label {
   font-weight: bold;
   color: #FFFFFF;
 }
+
+.tours_heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poiret One', cursive;
+  font-weight: lighter;
+  color: #FFC944;
+  font-size: 80px;
+  text-align: center;
+  margin-top: -10px;
+}
