@@ -13,15 +13,42 @@ header {
   color: #FFC944;
   font-size: 150px;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 150px;
   attachment: fixed;
-  position: relative;
 }
 
-.img-fromright {
+.img1 {
   float: right;
-  margin-right: 10px;
-  margin-top: 80px;
-  transform: translate(30%);
+  margin-right: 30px;
+  margin-top: 250px;
+}
+
+#navbar {
+  position: fixed;
+  background-color: #000000;
+  width: 100%;
+  height: 45px;
+  top: -100px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: 0px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  display: inline;
+  margin-top: 14px;
+  margin-right: 15px;
+}
+
+button:hover {
+  opacity: 50%;
 }
 

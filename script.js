@@ -1,15 +1,13 @@
-/* js for images sliding-in as you scroll */
+window.onscroll = function() {
+  scrollFunction();
+};
 
-// $(window).scroll(function(){
-
-//   var wScroll = $(this).scrollTop();
-
-// if(wScroll > $('.img-fromright').offset().top - $(window).height()) {
-
-//     var offset = wScroll - $('.img-fromright').offset().top + $(window).height()
-
-//     $('.img-fromright').css({'transform': 'translate(-' + offset + 'px, 20px);'});
-//   }
-// });
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
 
 
+};
