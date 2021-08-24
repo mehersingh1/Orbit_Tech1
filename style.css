@@ -229,9 +229,7 @@ label {
 .tbox {
   height: 400px;
   width: 1000px;
-/*   display: flex;
-  justify-content: center; */
-  margin-top: 40px;
+  margin-top: -20px;
   margin-right: 250px;
   margin-left: 150px;
   background-color: #000;
