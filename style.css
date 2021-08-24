@@ -122,5 +122,25 @@ button:hover {
   display: flex;
   justify-content: center;
   margin-left: 500px;
-  padding-top: 250px;
+  padding-top: 270px;
+}
+
+.homepara {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #FFC944;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact_heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poiret One', cursive;
+  color: #FFC944;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 50px;
 }
