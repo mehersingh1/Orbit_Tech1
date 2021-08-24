@@ -199,6 +199,8 @@ label {
 }
 
 .tours_heading {
+  background: #12182B;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   font-family: 'Poiret One', cursive;
@@ -207,4 +209,11 @@ label {
   font-size: 80px;
   text-align: center;
   margin-top: -10px;
+}
+
+.tbox1 {
+  background-color: #fff;
+  border-radius: 80%;
+  float: left;
+  margin-left: 30px;
 }
