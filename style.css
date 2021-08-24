@@ -5,6 +5,9 @@ html {
 /* header formatting */
 header {
   background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .title {
@@ -23,6 +26,18 @@ header {
   margin-top: 250px;
 }
 
+.hometext {
+  margin-top: 300px;
+  width: 40%;
+  color: #000000;
+}
+
+.text1 {
+  font-color: #ffffff;
+  margin-top: 400px;
+  width: 30%;
+  font-size: 60px;
+}
 #navbar {
   position: fixed;
   background-color: #000000;
