@@ -1,4 +1,13 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+/* js for images sliding-in as you scroll */
 
-console.log("Hello, world!");
+$(window).scroll(function(){
+  
+  var wScroll = $(this).scrollTop();
+  
+  if(wScroll > $('.homeimages').offset().top - $(window).height()) {
+    
+    $('.homeimages').css('transofrm')
+  }
+});
+
+
