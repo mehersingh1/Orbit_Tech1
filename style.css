@@ -18,13 +18,10 @@ header {
   position: relative;
 }
 
-.homeimages {
-  
-}
 
 .img1 {
   float: right;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-top: 80px;
   transform: translate(-90px, 20px);
 }

@@ -4,9 +4,11 @@ $(window).scroll(function(){
   
   var wScroll = $(this).scrollTop();
   
-  if(wScroll > $('.homeimages').offset().top - $(window).height()) {
+  if(wScroll > $('.img1').offset().top - $(window).height()) {
     
-    $('.homeimages').css('transofrm')
+    var offset = wScroll - $('.img1').offset().top + $(window).height()
+    
+    $('.img1').css({'transform': 'translate(-' +offset+ 'px, 20px)'});
   }
 });
 
