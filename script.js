@@ -12,16 +12,21 @@
 //   }
 // });
 
-const options = {};
+// const options = {};
 
-const faders = document.querySelectorAll(".fade-in");
+// const faders = document.querySelectorAll(".fade-in");
 
-const appearOnScroll = new IntersectionObserver(function(
-  entries,
-  appearOnScroll
-) {
-  entries.forEach(entry => {
-    if (!entry.isInterescting)
-  })
-},
-options);
+// const appearOnScroll = new IntersectionObserver(function(
+//   entries,
+//   appearOnScroll
+// ) {
+//   entries.forEach(entry => {
+//     if (!entry.isInterescting) {
+//       return;
+//     } else {
+//       entry.target.classList.add('appear');
+//       appearOnScroll.unobserve(entry.target);
+//     }
+//   });
+// },
+// options);

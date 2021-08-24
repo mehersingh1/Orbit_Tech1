@@ -18,18 +18,13 @@ header {
   position: relative;
 }
 
-.fade-in {
+.img-fromleft {
   float: right;
   margin-right: 10px;
   margin-top: 80px;
-  opacity: 0;
-  transition: opacity 250ms ease-in;
-}
-
-.fade-in.appear {
-  opacity: 1;
+/*   
 }
 /* .img1 { */
  
 /*   transform: translate(-100px, 20px); */
-}
+} */
