@@ -5,9 +5,6 @@ html {
 /* header formatting */
 header {
   background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .title {
@@ -22,21 +19,32 @@ header {
 
 .img1 {
   float: right;
-  margin-right: 30px;
+  margin-right: 100px;
   margin-top: 250px;
 }
 
-.hometext {
-  margin-top: 300px;
-  width: 40%;
-  color: #000000;
+.text1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #FFC944;
+  margin-top: 420px;
+  width: 30%;
+  margin-left: 150px;
+  
 }
 
-.text1 {
-  font-color: #ffffff;
-  margin-top: 400px;
+.explorelink {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #FFC944;
+  margin-top: 60px;
   width: 30%;
-  font-size: 60px;
+  margin-left: 150px;
+  
 }
 #navbar {
   position: fixed;
