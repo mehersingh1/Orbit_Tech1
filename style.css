@@ -127,12 +127,19 @@ button:hover {
 
 .homepara {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: lighter;
   color: #FFC944;
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+
+.arrow {
+  width: 140px;
+  height: 140px;
+  display: inline;
 }
 
 .contact_heading {
@@ -143,7 +150,7 @@ button:hover {
   color: #FFC944;
   font-size: 80px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .form {
@@ -162,6 +169,8 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 15px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
