@@ -32,7 +32,7 @@ header {
   font-weight: lighter;
   font-size: 40px;
   color: #FFC944;
-  margin-top: 400px;
+  margin-top: 405px;
   width: 30%;
   margin-left: 150px;
   
@@ -44,10 +44,17 @@ header {
   font-weight: lighter;
   font-size: 20px;
   color: #FFC944;
-  margin-top: 60px;
+  margin-top: 55px;
   width: 30%;
   margin-left: 150px;
-  
+}
+
+.img2 {
+  width: 500px;
+  height: 450px;
+  margin-top: 180px;
+  float: left;
+  margin-left: 100px;
 }
 #navbar {
   position: fixed;
