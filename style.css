@@ -229,8 +229,8 @@ label {
 .tbox1 {
   height: 400px;
   width: 1000px;
-  display: flex;
-  justify-content: center;
+/*   display: flex;
+  justify-content: center; */
   margin-top: 40px;
   margin-right: 250px;
   margin-left: 150px;
@@ -245,8 +245,8 @@ label {
   color: #fff;
 /*   display: flex;
   justify-content: center; */
-  margin-left: 360px;
-  margin-top: 7px;
+  margin-left: 25px;
+  padding-top: 20px;
 }
 
 .pkgsubtext {
@@ -254,14 +254,16 @@ label {
   font-weight: lighter;
   font-size: 20px;
   color: #fff;
-  margin-top: 200px;
+  padding-top: 40px;
+  text-align: center;
 }
   
 .pkglist {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+  font-size: 20px;
   text-align: center;
-  color: #fff;
-  argin-left: 360px;
-  margin-top: 15px;
+  color: #FFC944;
+  list-style-type: none;
+  margin-top: 60px;
 }
