@@ -1,25 +1,18 @@
-/* a minimalist set of CSS resets */
-
-/* default to border-box */
 html {
-  box-sizing: border-box;
-  font-size: 16px;
+  background-color: #12182B;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+header {
+  background-position: center;
 }
+.title {
+  font-family: 'Poiret One', cursive;
+  font-weight: lighter;
+  color: #FFC944;
+  font-size: 150px;
+  text-align: center;
+  margin-top: 60px;
+  attachment: fixed;
 
-/* adjust typography defaults */
-body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
-}
-
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+  
 }
