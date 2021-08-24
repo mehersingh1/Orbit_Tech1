@@ -63,9 +63,20 @@ header {
   font-weight: lighter;
   font-size: 40px;
   color: #FFC944;
-  margin-top: 200px;
+  margin-top: 300px;
   float: right;
   margin-right: 100px;
+}
+
+.img3 {
+  .img1 {
+  float: right;
+  margin-right: 100px;
+  margin-top: 550px;
+  width: 500px;
+  height: 450px;
+}
+
 }
 
 #navbar {
