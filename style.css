@@ -69,15 +69,25 @@ header {
 }
 
 .img3 {
-  .img1 {
   float: right;
   margin-right: 100px;
-  margin-top: 550px;
+  margin-top: 250px;
   width: 500px;
   height: 450px;
 }
 
+.text3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #FFC944;
+  float: left;
+  margin-top: 300px;
+  margin-left: 200px;
+  
 }
+
 
 #navbar {
   position: fixed;
