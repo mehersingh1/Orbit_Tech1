@@ -227,12 +227,12 @@ label {
 
 
 .tbox1 {
+  height: 350px;
+  width: 1000px;
   display: flex;
   justify-content: center;
-  height: 200px;
-  width: 70%;
-  margin-top: 500px;
-  margin-right: 200px;
- 
-  background-color: #ffffff;
+  margin-top: 40px;
+  margin-right: 250px;
+  margin-left: 150px;
+  background-color: #000;
 }
