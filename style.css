@@ -227,7 +227,7 @@ label {
 
 
 .tbox1 {
-  height: 350px;
+  height: 400px;
   width: 1000px;
   display: flex;
   justify-content: center;
@@ -243,8 +243,8 @@ label {
   font-size: 60px;
   text-align: center;
   color: #fff;
-  display: flex;
-  justify-content: center;
+/*   display: flex;
+  justify-content: center; */
   margin-left: 360px;
   margin-top: 7px;
 }
@@ -253,11 +253,15 @@ label {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
   font-size: 20px;
-  text-align: justify;
-  display: flex;
-  justify-content: center;
   color: #fff;
-  margin-top: 250px;
-  margin-left: 150px;
+  margin-top: 200px;
+}
   
+.pkglist {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color: #fff;
+  argin-left: 360px;
+  margin-top: 15px;
 }
