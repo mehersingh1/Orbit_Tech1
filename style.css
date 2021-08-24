@@ -118,10 +118,9 @@ button:hover {
   opacity: 50%;
 }
 
-
-/* 
 .starsymbol {
   display: flex;
   justify-content: center;
   margin-left: 500px;
-} */
+  padding-top: 250px;
+}
