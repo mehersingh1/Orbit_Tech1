@@ -236,3 +236,21 @@ label {
   margin-left: 150px;
   background-color: #000;
 }
+
+.pkgtext {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  margin-left: 417px;
+  whitespace: no-wrap;
+}
+
+.pkgsubtext {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 417px;
+}
