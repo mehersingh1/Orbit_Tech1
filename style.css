@@ -18,13 +18,10 @@ header {
   position: relative;
 }
 
-.img-fromleft {
+.img-fromright {
   float: right;
   margin-right: 10px;
   margin-top: 80px;
-/*   
+  transform: translate(30%);
 }
-/* .img1 { */
- 
-/*   transform: translate(-100px, 20px); */
-} */
+
